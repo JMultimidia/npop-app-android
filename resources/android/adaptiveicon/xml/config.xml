@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.jmultimidia.npop" version="2.0" versionCode="2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="BackgroundMode">
+        <param name="android-package" value="de.appplant.cordova.plugin.background.BackgroundMode" />
+    </feature>
+    <feature name="BackgroundModeExt">
+        <param name="android-package" value="de.appplant.cordova.plugin.background.BackgroundModeExt" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="UniqueDeviceID">
+        <param name="android-package" value="hu.dpal.phonegap.plugins.UniqueDeviceID" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SocialSharing">
+        <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+    </feature>
+    <feature name="Toast">
+        <param name="android-package" value="nl.xservices.plugins.Toast" />
+    </feature>
+    <feature name="LocalNotification">
+        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
+    </feature>
+    <feature name="OneSignalPush">
+        <param name="android-package" value="com.plugin.gcm.OneSignalPush" />
+    </feature>
+    <name>npop</name>
+    <description>Aplicativo de Guia e Delivery</description>
+    <author email="faleconosco@jmultimidia.com.br" href="https://www.jmultimidia.com.br">Johannes Nogueira</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access launch-external="yes" origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="*://*youtube.com" />
+    <allow-navigation href="https://www.youtube.com/embed/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="whatsapp:*" />
+    <allow-intent href="fb:*" />
+    <icon src="www/res/icon/android/Icon.png" />
+    <gap:config-file parent="/manifest" platform="android">
+        <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true" />
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    </gap:config-file>
+    <config-file parent="/*" target="AndroidManifest.xml">
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permissions.NETWORK_ACCESS" />
+        <uses-permission android:name="android.permissions.ACCESS_NETWORK_STATE" />
+    </config-file>
+    <hook src="hooks/patch-android-studio-check.js" type="before_plugin_install" />
+    <hook src="hooks/patch-android-studio-check.js" type="before_plugin_add" />
+    <hook src="hooks/patch-android-studio-check.js" type="before_build" />
+    <hook src="hooks/patch-android-studio-check.js" type="before_run" />
+    <hook src="hooks/patch-android-studio-check.js" type="before_plugin_rm" />
+    <allow-intent href="market:*" />
+    <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+        <application android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" />
+    </edit-config>
+    <resource-file src="www/res/icon/android/ic_launcher-web.png" target="app/src/main/res/mipmap/icon.png" />
+    <resource-file src="www/res/icon/android/mipmap-hdpi/ic_launcher.png" target="app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+    <resource-file src="www/res/icon/android/mipmap-hdpi/ic_launcher_round.png" target="app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
+    <resource-file src="www/res/icon/android/mipmap-hdpi/ic_launcher_foreground.png" target="app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
+    <resource-file src="www/res/icon/android/mipmap-mdpi/ic_launcher.png" target="app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+    <resource-file src="www/res/icon/android/mipmap-mdpi/ic_launcher_round.png" target="app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
+    <resource-file src="www/res/icon/android/mipmap-mdpi/ic_launcher_foreground.png" target="app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
+    <resource-file src="www/res/icon/android/mipmap-xhdpi/ic_launcher.png" target="app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+    <resource-file src="www/res/icon/android/mipmap-xhdpi/ic_launcher_round.png" target="app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
+    <resource-file src="www/res/icon/android/mipmap-xhdpi/ic_launcher_foreground.png" target="app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
+    <resource-file src="www/res/icon/android/mipmap-xxhdpi/ic_launcher.png" target="app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+    <resource-file src="www/res/icon/android/mipmap-xxhdpi/ic_launcher_round.png" target="app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
+    <resource-file src="www/res/icon/android/mipmap-xxhdpi/ic_launcher_foreground.png" target="app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
+    <resource-file src="www/res/icon/android/mipmap-xxxhdpi/ic_launcher.png" target="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+    <resource-file src="www/res/icon/android/mipmap-xxxhdpi/ic_launcher_round.png" target="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
+    <resource-file src="www/res/icon/android/mipmap-xxxhdpi/ic_launcher_foreground.png" target="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
+    <icon density="hdpi" src="www/res/icon/android/drawable-hdpi/ic_action_name.png" />
+    <icon density="mdpi" src="www/res/icon/android/drawable-mdpi/ic_action_name.png" />
+    <icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi/ic_action_name.png" />
+    <icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi/ic_action_name.png" />
+    <icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi/ic_action_name.png" />
+    <splash density="port-ldpi" src="www/res/screen/android/drawable-port-ldpi-screen.png" />
+    <splash density="port-mdpi" src="www/res/screen/android/drawable-port-mdpi-screen.png" />
+    <splash density="port-hdpi" src="www/res/screen/android/drawable-port-hdpi-screen.png" />
+    <splash density="port-xhdpi" src="www/res/screen/android/drawable-port-xhdpi-screen.png" />
+    <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
+    <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="KeepRunning" value="true" />
+    <preference name="loadUrlTimeoutValue" value="90000" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="target-device" value="universal" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#ff8c00" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="stay-in-webview" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="FadeSplashScreen " value="true" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="FadeSplashScreenDuration" value="300" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="27" />
+</widget>

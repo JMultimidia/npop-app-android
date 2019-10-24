@@ -1,0 +1,23 @@
+<div id="sobre" class="element-animation">
+    <div class="container">
+        <span class="back pull-left"><a href="javascript:history.back()"><i class="fas fa-arrow-left"></i></a></span>
+        <div class="text-center logo-inside">
+            <img src="img/applogo.png">
+        </div>
+        <div class="text-center">
+            <div class="tit-page">Informações</div>
+        </div>
+        <h6><strong>Versão:</strong> <span class="versao"></span></h6>
+        <h6><strong>Número de Acessos:</strong> <span class="visitas"></span></h6>
+        <div class="about_app my-3"><img src="img/loader.gif"></div> 
+        <div class="call"><i class="fab fa-whatsapp"></i><span class="whatsapp falenozap"></span></div>
+        <div class="call"><i class="far fa-envelope"></i><span class="mail_user send"></span></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        getInfo();
+        $('.versao').html(versao);
+        return false;
+    });
+</script>
