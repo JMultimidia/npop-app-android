@@ -1,0 +1,74 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-custom-config": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-app-event": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-background-mode": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-uniquedeviceid": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "br.com.jmultimidia.npop"
+    }
+  }
+}

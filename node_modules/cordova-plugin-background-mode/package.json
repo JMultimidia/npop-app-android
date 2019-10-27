@@ -1,0 +1,102 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-background-mode@^0.7.3",
+      "/home/johannes/DevApps/npop-app-android"
+    ]
+  ],
+  "_from": "cordova-plugin-background-mode@>=0.7.3 <0.8.0",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-plugin-background-mode@0.7.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-background-mode",
+  "_nodeVersion": "12.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-background-mode_0.7.3_1565178808823_0.7081233299137049"
+  },
+  "_npmUser": {
+    "email": "katzer@appplant.de",
+    "name": "katzer"
+  },
+  "_npmVersion": "6.10.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-background-mode",
+    "raw": "cordova-plugin-background-mode@^0.7.3",
+    "rawSpec": "^0.7.3",
+    "scope": null,
+    "spec": ">=0.7.3 <0.8.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-background-mode/-/cordova-plugin-background-mode-0.7.3.tgz",
+  "_shasum": "066f92c99f403b3ed3d6fb91f281a0a7ccbc84ba",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-background-mode@^0.7.3",
+  "_where": "/home/johannes/DevApps/npop-app-android",
+  "author": {
+    "name": "Sebastián Katzer"
+  },
+  "bugs": {
+    "url": "https://github.com/katzer/cordova-plugin-background-mode/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-background-mode",
+    "platforms": [
+      "android",
+      "browser",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Prevent apps from going to sleep in background.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 17,
+    "integrity": "sha512-LsU1v7EgTUROaks+tcQ8TnMzVUcU/TwjDVwj2O/4e4aI2q2ldLGsiZorqKqfqvwh2HoIssmY73OwJk91hQi62w==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdSru5CRA9TVsSAnZWagAAcGQP/0XaK+ERcdrFx70wk562\nIlatoDdvwo7QngfaqgccW3PBn4hMiRpAND8tWC38YOj8PRk5TpzZYUOS0LO9\nQCGV96J1T0fk8wz2uOXRJRuxTCgIzui4kmcaiHxn4MyAuPb1cYbymOuXwzod\n4eRSHDIiZRABpAVF/dlguUkBTVnO3f8Eueuq8hPBHIwGWlMPV6JiJnD8SKVp\nswViLTXLMyI3NhJkOBZBWG6O/aPQPyKZtLSLRFv2HemZet8ohmqvq6eSKY1r\nocKLD7e7zJyKgwLL8AjB6CoiWyEGc78yBoMSDWF7jjEfxMqD08ynbELDsmGn\nEiXZYKQMjgfmmeOxZV8BynZmbBcXEIxPbVv+VHPBtZYsczNFHwlY3uFi2pX0\nZj+sewBLbAkuSBfDP9MmdLyG22fvyPbVtNdl3tEZ0ZDZtv0AlLa2LlbM55X0\nO4zT6iPnxLbZ5scTBvX6T9b4LTLjOQCeVIB/h+WjuH4lkoMUHse7QS1YE5gt\nrntSyr2UL1NSDPxtgMfijIhorzNnmuG0lbJv7a6AjmyG+js9ravK9BnntDYO\nSaqra4hlIziP3HbtqWX0t999nvMZyI0yZdGiv0C3L3d+QORbBd/g23G4KH5t\nlbB20pjgtaKC+joBltjITYqBn73ts6FUJP2u6ejgdPrxMCQl0n/zLomr7F04\nihP3\r\n=kSMD\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "066f92c99f403b3ed3d6fb91f281a0a7ccbc84ba",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-background-mode/-/cordova-plugin-background-mode-0.7.3.tgz",
+    "unpackedSize": 179728
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    },
+    {
+      "name": "android-sdk",
+      "version": ">=16"
+    }
+  ],
+  "gitHead": "0a6bf35cb9f2bfcb8a0a79767b57158e17a32f13",
+  "homepage": "https://github.com/katzer/cordova-plugin-background-mode#readme",
+  "keywords": [
+    "appplant",
+    "background",
+    "cordova-android",
+    "cordova-browser",
+    "cordova-ios",
+    "ecosystem:cordova"
+  ],
+  "license": "Apache 2.0",
+  "maintainers": [
+    {
+      "name": "katzer",
+      "email": "katzer@appplant.de"
+    }
+  ],
+  "name": "cordova-plugin-background-mode",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katzer/cordova-plugin-background-mode.git"
+  },
+  "version": "0.7.3"
+}

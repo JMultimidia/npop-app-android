@@ -1,0 +1,104 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-app-event@^1.2.2",
+      "/home/johannes/DevApps/npop-app-android"
+    ]
+  ],
+  "_from": "cordova-plugin-app-event@>=1.2.2 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-plugin-app-event@1.2.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-app-event",
+  "_nodeVersion": "12.9.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-app-event_1.2.2_1569410067423_0.9501504445749687"
+  },
+  "_npmUser": {
+    "email": "katzer@appplant.de",
+    "name": "katzer"
+  },
+  "_npmVersion": "6.11.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-app-event",
+    "raw": "cordova-plugin-app-event@^1.2.2",
+    "rawSpec": "^1.2.2",
+    "scope": null,
+    "spec": ">=1.2.2 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-app-event/-/cordova-plugin-app-event-1.2.2.tgz",
+  "_shasum": "bd1ba932b2e5cefaf918b681391f6d1fb995ca71",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-app-event@^1.2.2",
+  "_where": "/home/johannes/DevApps/npop-app-android",
+  "author": {
+    "name": "Sebastián Katzer"
+  },
+  "bugs": {
+    "url": "https://github.com/katzer/cordova-plugin-app-event/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-app-event",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Broadcasts UIApplicationDelegate events",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 10,
+    "integrity": "sha512-Fkn8xNt09tcg8QCp2LHBaAHB81gZbyZdSdd+bzhVitpjTfc38nqSm2hanWfFlqxPAckaSRDbD8MI1Ev5NWxquQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdi0wUCRA9TVsSAnZWagAANKAP/jLHMLzoULBh+lg7sqf4\ny9OgNZuiTIfAU8TduSrQZoieEHE5jukImr8cpkEeq2BFZBJAdsjFcr/zy5cm\nSYJZLvmylNygZU89nlP9z+GYvN6wzVQcphZ8mAY56o0ODii6/IdLnAC9g0WW\nCXCMlUMZF9uKfcqJCmwYuSoJ90akOQC/+3KBst9wvlzzg6huKDy3EKmnx9A/\nBeMt6fID6sDen1WUggoEWvzsZZS14wuOvb010++JNvIsZ+tBCfZPnNsSpTAq\nOyjbXINFg6B9mHSlLfPnNKcycmwpdFaGte9vS0OF6SRb580p1mbE8r+cwznG\ntgF1c7eQ1k7pp/OPENz9PDCgfhcFpw1cnngQBd9rtvB2pi+jq7izo0GCUuR/\nCxQdiKomymH/zZFhvBGJkawA3pETKg/7H+YG3VdFyvKvWtwg+x8xVws6Dnrr\nQGOAMcqrRmuCeNbgjVTkH7G+/qufCECAtIXHxved+2JQ0bi786Mg7DE9XA0a\nYNMn/dWdyyczW8yB1ZwYqQavp5I6O7BckgSSN0Pc7AyQvv5JK+ITHkugezX4\nM6jjpvVzYAhQ/dW/g6ZTKOvnClzFCJFiuFDQEG+ZqrbooYLgdMrJnt2u1HSq\nOtDDte0Wjc11fxqXeJPpmGVBmjnmJNNTtmqGKiSmroztq85Cm5PziBNzbl4G\nzUNF\r\n=nwm5\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "bd1ba932b2e5cefaf918b681391f6d1fb995ca71",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-app-event/-/cordova-plugin-app-event-1.2.2.tgz",
+    "unpackedSize": 28866
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.6.0"
+    }
+  ],
+  "gitHead": "63b52c6157a152631a4093df5ab46a4a8f191738",
+  "homepage": "https://github.com/katzer/cordova-plugin-app-event#readme",
+  "keywords": [
+    "UIApplicationDelegate",
+    "appplant",
+    "cordova",
+    "didFinishLaunchingWithOptions",
+    "didReceiveLocalNotification",
+    "didRegisterUserNotificationSettings",
+    "ecosystem:cordova"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "katzer",
+      "email": "katzer@appplant.de"
+    }
+  ],
+  "name": "cordova-plugin-app-event",
+  "optionalDependencies": {},
+  "platforms": [
+    "ios"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katzer/cordova-plugin-app-event.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.2"
+}

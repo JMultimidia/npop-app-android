@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport"
+                content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.min.css" />
+        <meta name="theme-color" content="#ff8c00">
+        <!-- add to homescreen for ios -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <style type="text/css">
+                @font-face {
+                        font-family: "font_1";
+                        src: url("fonts/PORKYS_.TTF");
+                }
+        </style>
+</head>
+
+<body>
+        <div class="site">
+                <div class="menu">
+                        <div class="hd">
+                                <div class="logo"></div>
+                                <div class="text local"></div>
+                        </div>
+                        <ul class="mn element-animation">
+                                <li><a href="javascript:app.goFrame(''+site+'/segmentos',''+app_name+'');"><img
+                                                        src="img/icones/inicio.png" class="icon-local">Início</a></li>
+                                <li><a href="javascript:app.goFrame(''+site+'/appwebview','');"><img
+                                                        src="img/icones/nav-local.png" class="icon-local">Alterar
+                                                Cidade</a></li>
+                                <li><a href="javascript:app.goFrame(''+site+'/categorias','');"><img
+                                                        src="img/icones/nav-categorias.png"
+                                                        class="icon-local">Categorias</a></li>
+                                <li><a href="javascript:app.goFrame(''+site+'/destaques','');"><img
+                                                        src="img/icones/nav-destaques.png"
+                                                        class="icon-local">Destaques</a></li>
+                                <li><a href="javascript:app.goFrame(''+site+'/eventos','');"><img
+                                                        src="img/icones/nav-eventos.png" class="icon-local">Eventos</a>
+                                </li>
+                                <li><a href="javascript:app.goFrame(''+site+'/promocoes','');"><img
+                                                        src="img/icones/nav-promocoes.png"
+                                                        class="icon-local">Promoções</a></li>
+                                <li><a href="javascript:app.goFrame(''+site+'/noticias','');"><img
+                                                        src="img/icones/nav-noticias.png"
+                                                        class="icon-local">Notícias</a></li>
+                                <li><a href="javascript:app.goFrame(''+site+'/meuspedidos','');"><img
+                                                        src="img/icones/nav-pedidos.png" class="icon-local">Meus
+                                                Pedidos</a></li>
+                                <li><a href="javascript:app.goFrame(''+site+'/login','');"><img
+                                                        src="img/icones/nav-loja.png" class="icon-local">Meu Negócio</a>
+                                </li>
+                                <li><a href="#" id="Sair"><img src="img/icones/nav-sair.png" class="icon-local">Sair</a>
+                                </li>
+                        </ul>
+                        <ul class="mn element-animation2">
+                                <h2>Aplicativo</h2>
+                                <li><a href="javascript:app.goFrame(''+site+'/anuncie','');"><img
+                                                        src="img/icones/nav-anuncie.png" class="icon-local">Anuncie</a>
+                                </li>
+                                <li><a href="javascript:app.goFrame(''+site+'/faleconosco','');"><img
+                                                        src="img/icones/nav-email.png" class="icon-local">Fale
+                                                Conosco</a></li>
+                                <li><a href="#" id="Avalie"><img src="img/icones/nav-avaliar.png"
+                                                        class="icon-local">Avalie</a></li>
+                                <li><a href="javascript:app.goPage('sobre.html','Sobre o App');"><img
+                                                        src="img/icones/nav-sobre.png" class="icon-local">Sobre</a></li>
+                        </ul>
+                        <ul class="mn element-animation3">
+                                <h2>Redes Sociais</h2>
+                                <li><span class="showInstagram"></span></li>
+                                <li><span class="showFacebook"></span></li>
+                                <li><span class="showYoutube"></span></li>
+                        </ul>
+                </div>
+                <div class="open"></div>
+                <div class="head cf">
+                        <div class="container-fluid">
+                                <div class="d-flex justify-content-between">
+                                        <div class="p-0 nav_left_button menus">
+                                                <img src="img/icones/menu.svg" width="24px" height="24px">
+                                        </div>
+                                        <div class="p-0 nav_center_logo"><img src="img/logo-head-white.png"></div>
+
+                                        <div class="p-0 nav_right_button share">
+                                                <img src="img/icones/share.png" width="24" height="25">
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div id="wrap"></div>
+                <footer>
+                        <div class="icons-footer d-flex justify-content-between">
+                                <a href="javascript:app.goFrame(''+site+'/promocoes','');" class="promocoes"><img
+                                                src="img/icones/promocoes.png"></a>
+                                <a href="javascript:app.goFrame(''+site+'/filtros','');" class="filtros"><img
+                                                src="img/icones/filtro.png"></a>
+                                <a href="javascript:app.goFrame(''+site+'/segmentos','');" class="home" class="home"><img
+                                                src="img/icones/inicio.png"></a>
+                                <a href="javascript:app.goFrame(''+site+'/favoritos','');"
+                                        class="favoritos"><img src="img/icones/favoritos.png"></a>
+                                <a href="javascript:app.goFrame(''+site+'/login','');" class="user"><img
+                                                src="img/icones/usuario.png"></a>
+                        </div>
+                </footer>
+        </div>
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/54f62e7968.js"></script>
+        <!--<script src="js/polyfills.js"></script>-->
+        <script type="text/javascript" src="js/ratchet.min.js"></script>
+        <script src="lib/jquery.tap.js"></script>
+        <script src="lib/jquery.ajax-retry.min.js"></script>
+        <script type="text/javascript" src="js/config.js"></script>
+        <script type="text/javascript" src="js/johannes.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+                $(document).ready(function () {
+                        getInfo();
+                        return false;
+                });
+                app.initialize();
+        </script>
+</body>
+
+</html>
