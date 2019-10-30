@@ -10,9 +10,9 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function () {
         this.receivedEvent('deviceready');
-        cordova.plugins.notification.local.schedule(toast, callback, scope, { skipPermission: true, sound: null, });
-        this.showNotification();
         if (device.platform == "Android") {
+            cordova.plugins.notification.local.schedule(toast, callback, scope, { skipPermission: true, sound: null, });
+            this.showNotification();
             // Android customization
             cordova.plugins.backgroundMode.setDefaults({
                 title: app_name,
@@ -114,7 +114,7 @@ var app = {
         console.log(source);
         if (source == window.site + "/favoritos") {
             source = window.site + "/favoritos?info=" + window.id_celular;
-            console.log("NOVO SOURCE:" + source);
+            //console.log("NOVO SOURCE:" + source);
         }
 
         $(".title").html(name);
@@ -127,7 +127,7 @@ var app = {
                 var frame =
                     '<iframe id="goGo" src="' +
                     source +
-                    '" frameborder="0" width="100%" height="100%"></iframe>';
+                    '" frameborder="0" width="100%" height="100%" style="position: absolute; -webkit-overflow-scrolling:touch; overflow-y:scroll"></iframe>';
                 $("#wrap").html(frame);
             },
             error: function (data) {

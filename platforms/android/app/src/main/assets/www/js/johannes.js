@@ -32,6 +32,7 @@ function appSetup(data) {
     window.facebook = data.facebook;
     window.instagram = data.instagram;
     window.youtube = data.youtube;
+    window.storeiOS = data.storeios
 
     /* youtube = data[0].youtube; */
     /* youtube = data.youtube;           */
