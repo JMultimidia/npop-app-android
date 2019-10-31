@@ -11,7 +11,7 @@ var app = {
     onDeviceReady: function () {
         this.receivedEvent('deviceready');
         if (device.platform == "Android") {
-            cordova.plugins.notification.local.schedule(toast, callback, scope, { skipPermission: true, sound: null, });
+            //cordova.plugins.notification.local.schedule(toast, callback, scope, { skipPermission: true, sound: null, });
             this.showNotification();
             // Android customization
             cordova.plugins.backgroundMode.setDefaults({
@@ -127,7 +127,7 @@ var app = {
                 var frame =
                     '<iframe id="goGo" src="' +
                     source +
-                    '" frameborder="0" width="100%" height="100%"></iframe>';
+                    '" frameborder="0" width="100%" height="100%""></iframe>';
                 $("#wrap").html(frame);
             },
             error: function (data) {
