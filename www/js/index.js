@@ -127,7 +127,7 @@ var app = {
                 var frame =
                     '<iframe id="goGo" src="' +
                     source +
-                    '" frameborder="0" width="100%" height="100%" style="position: absolute; -webkit-overflow-scrolling:touch; overflow-y:scroll"></iframe>';
+                    '" frameborder="0" width="100%" height="100%""></iframe>';
                 $("#wrap").html(frame);
             },
             error: function (data) {
