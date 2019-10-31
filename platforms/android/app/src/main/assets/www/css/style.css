@@ -120,14 +120,7 @@ h6 {
     left: 0;
     width:100%; 
     height: calc(100% + 10px);
-    -webkit-overflow-scrolling:touch;
-    overflow-y:scroll
 } 
-/* change the width + height */
-#iframe-wrap iframe {
-    width:100%;
-    height:100%
-}
 .back {
     font-size: 1rem;
     padding-top: 15px
